@@ -23,6 +23,7 @@ public:
 
 	bool Set(const T& In) {
 		N = In;
+		return true;
 	}
 
 	T operator ++(T) {
