@@ -51,6 +51,10 @@ int main() {
 	std::cout << CO << std::endl;
 	CO--;
 	std::cout << CO << std::endl;
+	std::cout << CO++ << std::endl;
+	std::cout << CO-- << std::endl;
 
+	CO.Set(0);
+	std::cout << CO << std::endl;
 	return 0;
 }
